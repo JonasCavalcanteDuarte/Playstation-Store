@@ -1,3 +1,4 @@
+/*General settings*/
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +46,7 @@ h4{
     color: black;
     margin: 30px 0;
 }
-  
+/*ID's settings (Div's,Ul's)*/
 #container {
     width: 80%;
     margin: 80px 0;
@@ -122,6 +123,8 @@ h4{
     transform: translatex(150px);
 }
 
+/*Class settings (Images,buttons,links)*/
+
 .logo {
     width: 50px;
     margin: 30px 0;
@@ -196,6 +199,7 @@ h4{
     display: none;
 }
 
+/*Keyframes settings (page animations settings)*/
 @keyframes moveMenuIcon{
     0%{
         transform: rotate(0deg);
@@ -213,6 +217,7 @@ h4{
 
 }
 
+/*Media settings (For responsive adjustments)*/
 @media (max-width:760px){
 
     #menu-list{
